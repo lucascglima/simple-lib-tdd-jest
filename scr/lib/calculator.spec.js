@@ -1,4 +1,4 @@
-const { sum } = require("./calculator");
+import { sum } from "./calculator";
 // Padrão somando 2 números
 it("should sum 2 and 2 and the result must be 4", () => {
   expect(sum(2, 2)).toBe(4);

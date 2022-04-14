@@ -1,4 +1,4 @@
-const { queryString, parse } = require("./queryString.js");
+import { queryString, parse } from "./queryString.js";
 
 describe("Object to query string", () => {
   it("should create a valida query string", () => {
